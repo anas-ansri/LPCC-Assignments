@@ -359,9 +359,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "4a.l"
+#line 1 "5a.l"
 #define INITIAL 0
-#line 2 "4a.l"
+#line 2 "5a.l"
 #include<stdio.h>
 #include "y.tab.h"
 extern int yylval;
@@ -516,7 +516,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 7 "4a.l"
+#line 7 "5a.l"
 
 #line 522 "lex.yy.c"
 
@@ -603,7 +603,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 8 "4a.l"
+#line 8 "5a.l"
 {
           yylval=atoi(yytext);
           return NUMBER;
@@ -611,22 +611,22 @@ YY_RULE_SETUP
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 12 "4a.l"
+#line 12 "5a.l"
 ;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 13 "4a.l"
+#line 13 "5a.l"
 return 0;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 14 "4a.l"
+#line 14 "5a.l"
 return yytext[0];
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 15 "4a.l"
+#line 15 "5a.l"
 ECHO;
 	YY_BREAK
 #line 633 "lex.yy.c"
@@ -1515,7 +1515,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 15 "4a.l"
+#line 15 "5a.l"
 
 int yywrap()
 {

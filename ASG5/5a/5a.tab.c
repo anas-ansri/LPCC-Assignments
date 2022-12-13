@@ -68,7 +68,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "4a.y"
+#line 1 "5a.y"
 
     #include<stdio.h>
     int flag=0;
@@ -76,7 +76,7 @@
 
 
 /* Line 189 of yacc.c  */
-#line 80 "4a.tab.c"
+#line 80 "5a.tab.c"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG
@@ -121,7 +121,7 @@ typedef int YYSTYPE;
 
 
 /* Line 264 of yacc.c  */
-#line 125 "4a.tab.c"
+#line 125 "5a.tab.c"
 
 #ifdef short
 # undef short
@@ -1309,7 +1309,7 @@ yyreduce:
         case 2:
 
 /* Line 1455 of yacc.c  */
-#line 12 "4a.y"
+#line 12 "5a.y"
     {
          printf("\nResult = %d\n",(yyval));
          return 0;
@@ -1319,56 +1319,56 @@ yyreduce:
   case 3:
 
 /* Line 1455 of yacc.c  */
-#line 16 "4a.y"
+#line 16 "5a.y"
     {(yyval)=(yyvsp[(1) - (3)])+(yyvsp[(3) - (3)]);;}
     break;
 
   case 4:
 
 /* Line 1455 of yacc.c  */
-#line 17 "4a.y"
+#line 17 "5a.y"
     {(yyval)=(yyvsp[(1) - (3)])-(yyvsp[(3) - (3)]);;}
     break;
 
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 18 "4a.y"
+#line 18 "5a.y"
     {(yyval)=(yyvsp[(1) - (3)])*(yyvsp[(3) - (3)]);;}
     break;
 
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 19 "4a.y"
+#line 19 "5a.y"
     {(yyval)=(yyvsp[(1) - (3)])/(yyvsp[(3) - (3)]);;}
     break;
 
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 20 "4a.y"
+#line 20 "5a.y"
     {(yyval)=(yyvsp[(1) - (3)])%(yyvsp[(3) - (3)]);;}
     break;
 
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 21 "4a.y"
+#line 21 "5a.y"
     {(yyval)=(yyvsp[(2) - (3)]);;}
     break;
 
   case 9:
 
 /* Line 1455 of yacc.c  */
-#line 22 "4a.y"
+#line 22 "5a.y"
     {(yyval)=(yyvsp[(1) - (1)]);;}
     break;
 
 
 
 /* Line 1455 of yacc.c  */
-#line 1372 "4a.tab.c"
+#line 1372 "5a.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1580,7 +1580,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 24 "4a.y"
+#line 24 "5a.y"
 
 
 void main()

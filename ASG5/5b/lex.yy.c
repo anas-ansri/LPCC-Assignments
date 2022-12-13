@@ -370,9 +370,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "4c.l"
+#line 1 "5b.l"
 #define INITIAL 0
-#line 2 "4c.l"
+#line 2 "5b.l"
 #include<stdio.h>
 #include "y.tab.h"
 #line 379 "lex.yy.c"
@@ -526,7 +526,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 6 "4c.l"
+#line 6 "5b.l"
 
 #line 532 "lex.yy.c"
 
@@ -613,57 +613,57 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 "4c.l"
+#line 7 "5b.l"
 return NEW;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 8 "4c.l"
+#line 8 "5b.l"
 return OPEN_SQ;
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 9 "4c.l"
+#line 9 "5b.l"
 return CLOSE_SQ;
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 10 "4c.l"
+#line 10 "5b.l"
 return EQ;
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 11 "4c.l"
+#line 11 "5b.l"
 return COMMA;
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 12 "4c.l"
+#line 12 "5b.l"
 return UD;
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 13 "4c.l"
+#line 13 "5b.l"
 return WS;
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 14 "4c.l"
+#line 14 "5b.l"
 return ID;
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 15 "4c.l"
+#line 15 "5b.l"
 return DIGIT;
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 16 "4c.l"
+#line 16 "5b.l"
 return 0;
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 17 "4c.l"
+#line 17 "5b.l"
 ECHO;
 	YY_BREAK
 #line 670 "lex.yy.c"
@@ -1552,5 +1552,5 @@ int main()
 	return 0;
 	}
 #endif
-#line 17 "4c.l"
+#line 17 "5b.l"
 
