@@ -1,2 +1,2 @@
 # oops
-sudo pip install numpy && sudo pip install pandas && sudo pip install matplotlib && sudo pip install seaborn && sudo pip install scikit-learn
+pip install numpy && pip install pandas && pip install matplotlib && pip install seaborn && pip install scikit-learn
