@@ -1,2 +1,3 @@
 # Ignore all the files with .class extension. These are the compiled files.
 **.class
+references/
