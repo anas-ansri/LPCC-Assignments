@@ -4,7 +4,7 @@ This repository contains code that I have written while practicing data structur
 
 ## Contents
 
-- [Concept 1](#concept-1)
+<!-- - [Concept 1](#concept-1)
 - [Concept 2](#concept-2)
 - ...
 
@@ -16,12 +16,11 @@ Description of the concept or problem and my approach to solving it.
 
 Description of the concept or problem and my approach to solving it.
 
-...
+... -->
 
 ## Credits
 
 I have referenced the following resources while working on these problems:
 
-- DSA + Java playlist on YouTube by @kunal-kushwaha 
-//- Resource 2
-- ...
+- DSA + Java playlist on YouTube by [Kunak Kushwaha](https://github.com/kunal-kushwaha)
+<!-- - ... -->
