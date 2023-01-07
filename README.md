@@ -4,19 +4,19 @@ This repository contains code that I have written while practicing data structur
 
 ## Contents
 
-<!-- - [Concept 1](#concept-1)
-- [Concept 2](#concept-2)
+- [Java Revision](java-revision)
+<!-- - [Concept 2](#concept-2) -->
 - ...
 
-### Concept 1
+### Java Revision
 
-Description of the concept or problem and my approach to solving it.
+This subdirectory contains code that I have written while revising Java. The code is written in Java 18 and is intended to be run using the `javac` and `java` commands.
 
-### Concept 2
+<!-- ### Concept 2
 
-Description of the concept or problem and my approach to solving it.
+Description of the concept or problem and my approach to solving it. -->
 
-... -->
+...
 
 ## Credits
 
